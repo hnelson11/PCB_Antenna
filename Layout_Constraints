@@ -1,0 +1,11 @@
+#PCB_Antenna Layout Constraints
+
+Length of Patch Antenna is denoted as 29.1 mm. 
+Width of Patch Antenna is denoted as 38.7 mm.
+Distance between edge of board and end of Antenna on opposite side of the transmission line is 11 mm. 
+This length is needed for waves to better radiate through the board, to provide more accurate data collection on VNA. 
+Transmission line length is 17.9 mm. 
+Any SMA connector is sufficient to connect transmission line to. 
+If connecting a coaxial cable from VNA to SMA, ensure the transmission line length is according to specification, and ensure a 111 ohm transmission line is created. 
+Additionally, a ground plane must be created underneath Antenna Patch, and that vias are drilled near GND pins of the SMA.
+This is to enusre equal current is spread throughout the board. 
